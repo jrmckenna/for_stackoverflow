@@ -68,12 +68,6 @@ summary(model)
 
 plot(model_one)
 
-summary(model)
-model %>% evaluate(X_test, y_test)
-
-model_one_df <- as.data.frame(model_one_df)
-str(model_one_df)
-
 
 
 
